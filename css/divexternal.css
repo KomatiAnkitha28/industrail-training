@@ -1,0 +1,181 @@
+.a{
+    height: 600px;
+    width:1100px;
+    background-color: black;
+}
+.b{
+    height: 600px;
+    width: 200px;
+    background-color: yellow;
+}
+.c{
+    height: 100px;
+    width:200px;
+    background-color: orange;
+}
+.d{
+    height: 300px;
+    width:200px;
+    background-color: aqua;
+}
+.e{
+    height: 200px;
+    width:200px ;
+    background-color: black;
+}
+.f{
+    height: 200px;
+    width: 100px;
+    background-color: blueviolet;
+}
+.g{
+    height: 200px;
+    width: 100px;
+    background-color:red;
+    float: right;
+}
+.h{
+    height: 600px;
+    width: 900px;
+    background-color: blueviolet;
+    float: right;
+}
+.i{
+    height: 100px;
+    width:900px;
+    background-color: blue;
+}
+.j{
+    height: 100px;
+    width:900px;
+    background-color:yellowgreen;
+}
+.k{
+    height: 200px;
+    width:700px ;
+    background-color:pink;
+}
+.l{
+    height: 100px;
+    width:200px;
+    background-color: green;
+    float: right;
+}
+.m{
+    height:50px ;
+    width:200px ;
+    background-color: blue;
+}
+.n{
+    height: 50px;
+    width: 200px;
+    background-color: aqua;
+}
+.n1{
+    height: 50px;
+    width: 100px;
+    background-color: blanchedalmond;
+}
+.n2{
+    height: 50px;
+    width: 100px;
+    background-color: yellow;
+    float: right;
+}
+.o{
+    height: 400px;
+    width: 900px;
+    background-color: black;
+}
+.o1{
+    height: 400px;
+    width: 200px;
+    background-color: aquamarine;
+}
+.o11{
+    height: 200px;
+    width: 100px;
+    background-color:yellow;
+}
+.o12{
+    height: 200px;
+    width: 100px;
+    background-color:pink;
+    float: right;
+}
+.o2{
+    height: 200px;
+    width: 200px;
+    background-color: hotpink;
+}
+.p{
+    height: 400px;
+    width:700px;
+    background-color: aqua;
+    float: right;
+}
+.p1{
+    height: 100px;
+    width: 700px;
+    background-color: brown;
+}
+.p2{
+    height: 300px;
+    width: 700px;
+    background-color: rgb(10, 142, 219);
+}
+
+.p21{
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    float: left;
+}
+.p22{
+    height: 150px;
+    width: 300px;
+    background-color: black;
+}
+.p23{
+    height: 150px;
+    width: 300px;
+    background-color: yellow;
+}
+.p231{
+    height: 150px;
+    width: 150px;
+    background-color: salmon;
+}
+.p232{
+    height: 150px;
+    width: 150px;
+    background-color: gray;
+    float: right;
+}
+.q{
+    height: 300px;
+    width: 300px;
+    background-color:yellow;
+    float: right;
+}
+.q1{
+    height: 150px;
+    width: 300px;
+    background-color: rgb(173, 202, 6);
+}
+.q2{
+    height: 150px;
+    width: 300px;
+    background-color: black;
+}
+.q21{
+    height: 150px;
+    width: 150px;
+    background-color: purple;
+}
+.q22{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(7, 98, 164);
+    float: right;
+}

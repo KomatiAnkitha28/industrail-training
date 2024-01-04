@@ -1,0 +1,48 @@
+.ex{
+    border:2px;
+    color:blueviolet;
+    background-color: blanchedalmond;
+    font-size: 40px;
+}
+#id{
+   
+    width:100px;
+    height:100px;
+    background-color: aqua;
+}
+span{
+    border:2px;
+    color:rgb(5, 90, 135);
+    background-color: blanchedalmond;
+    font-size: 40px;
+
+}
+*{
+    border:2px;
+    color:rgb(10, 182, 67);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+input[type]{
+    color:rgb(195, 198, 15);
+}
+input[type="password"]{
+    color:rgb(64, 15, 198);
+}
+a[href]{
+    color:whitesmoke;
+    background-color: rgb(191, 140, 11);
+}
+a:link{
+    color:green;
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    font-size: 50px;
+    color:pink;
+}
+a:active{
+    color:aqua;
+}

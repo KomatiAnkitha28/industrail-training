@@ -1,0 +1,116 @@
+.a{
+    height: 50px;
+    width:1500px;
+    border: 1px solid white;
+    background-color: white;
+    padding-top: 3px;
+}
+.b{
+
+    padding:10px 30px;
+}
+
+.c{
+    height: 500px;
+    width: 250px;
+    background-color: white;
+    border: 2px ;
+    margin-left: 20px;
+    float: left;
+}
+img{
+    border:2px solid blue;
+    width:100px;
+    border-radius: 100px;
+}
+.e{
+    padding: 10px 10px;
+}
+a{
+    text-decoration: none;
+    color:grey;
+}
+.d{
+    height: 200px;
+    width:550px;
+    border:2px solid white;
+    background-color: white;
+    float: left;
+    padding-left: 3px;
+    margin-left: 50px;
+}
+.ankitha{
+    height:600px;
+    width:900px;
+    border:2px solid white;
+    margin-top: 20px;
+    margin-left: 200px;
+    background-color: azure;
+}
+input{
+    font-size:15px;
+    
+}
+.f{
+    height: 350px;
+    width:550px;
+    border: 2px solid white;
+    float:right ;
+    margin-top: 20px;
+    margin-right: 25px;
+    
+}
+.q{
+    width:550px ;
+    height: 5px;
+    background-color: grey;
+}
+.p{
+    width:400px;
+    height:5px;
+    background-color: rgb(17, 38, 227);
+    border-radius: 20px;
+}
+.p11{
+    width:550px;
+    height: 5px;
+    background-color: grey;
+}
+.p1{
+    width:300px;
+    height:5px;
+    background-color: red;
+    border-radius: 20px;
+}
+.p22{
+    width:550px;
+    height: 5px;
+    background-color: grey;
+}
+.p2{
+    width:500px;
+    height:5px;
+    background-color:green;
+    border-radius: 20px;
+}
+.p33{
+    width:550px;
+    height:5px;
+    background-color:grey;
+}
+.p3{
+    width:200px;
+    height:5px;
+    background-color:yellow;
+    border-radius: 20px;
+}
+.p44 {width:550px;
+    height:5px;
+    background-color:grey;
+}
+.p4{
+    width:250px;
+    height:5px;
+    background-color:skyblue;
+    border-radius:20px;
+}
