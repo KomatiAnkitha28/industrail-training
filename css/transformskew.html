@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>transform skew</title>
+        <style>
+            .o{
+                height: 200px;
+                width:200px;
+                border: 1px solid black;
+                background-color: aqua;
+                float: left;
+                margin-left: 20px;
+            }
+            .o:hover{
+                transform: skew(20deg,30deg);
+            }
+            .t{
+                height: 200px;
+                width:200px;
+                border: 1px solid black;
+                background-color: pink;
+                float: left;
+                margin-left: 20px;
+            }
+            .t:hover{
+                transform: skewx(20deg);
+            }
+            .th{
+                height: 200px;
+                width:200px;
+                border: 1px solid black;
+                background-color: green;
+                float: left;
+                margin-left: 20px;
+            }
+            .th:hover{
+                transform: skewy(20deg);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="o">
+            <center><p>skew x and y</p></center>
+        </div>
+        <div class="t">
+            <center><p>skew x </p></center>
+        </div>
+        <div class="th">
+            <center><p>skew y</p></center>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,265 @@
+<html>
+    <head>
+        <title>Weather On Dashboard</title>
+        <style>
+            .back{
+                height: 800px;
+                width:1500px;
+                background-color: rgb(231,243,248);
+            }
+            .a{
+                height: 100px;
+                width:1500px;
+                background-color: blue;
+                color:white;
+            }
+            .t1{
+                font-size: 30px;
+                margin-top: 20px;
+            }
+            .b{
+                height: 500px;
+                width:450px;
+                /* border: 1px solid black; */
+                margin-top: 40px;
+                margin-left: 100px;
+            }
+            label{
+                color:black;
+                font-size: 20px;
+                margin-top: 40px;
+            }
+            input{
+                border: 1px solid white;
+                
+                height: 50px;
+                width:400px;
+            }
+            .bt1{
+                background-color: blue;
+                color:white;
+                height: 50px;
+                width:400px;
+                border:1px solid white;
+                font-size: 15px;
+            }
+            .c{
+                height: 2px;
+                width:190px;
+                background-color: grey;
+                position: absolute;
+                top:333px;
+            }
+            .t2{
+                color: grey;
+                margin-left:193px;
+            }
+            .d{
+                height: 2px;
+                width:190px;
+                background-color: grey;
+                position: absolute;
+                top:333px;
+                left:320px;
+            }
+            .bt2{
+                height: 50px;
+                width:400px;
+                background-color: grey;
+                color:white;
+                font-size: 20px;
+                border:1px solid white;
+            }
+            .e{
+                height: 800px;
+                width:800px;
+                /* border: 1px solid black; */
+                position: absolute;
+                top:150px;
+                left:600px;
+            }
+            .e1{
+                height: 200px;
+                width:800px;
+                background-color: blue;
+                color:white;
+                position: absolute;
+            }
+            .p1{
+                font-size: 15px;
+                margin-top: 10px;
+            }
+            .ei{
+                height: 150px;
+                width:150px;
+                position: absolute;
+                left:600px;
+                top:30px;
+                color:white;
+                
+            }
+            i1{
+                height: 50px;
+                width: 50px; 
+            }
+            h2{
+                margin-top: 220px;
+            }
+            .f{
+                height: 400px;
+                width:800px;
+                
+            }
+            .f1{
+                height: 300px;
+                width:180px;
+                background-color: grey;
+                float:left;
+                color:white;
+                border-radius: 10px;
+              
+            }
+            .f11{
+                height: 250px;
+                width:140px;
+                background-color: grey;
+                color:white;
+                margin-left: 20px;
+            }
+            .f2{
+                height: 300px;
+                width:180px;
+                background-color: grey;
+                float:left;
+                margin-left: 25px;
+                color:white;
+                border-radius: 10px;
+            }
+            .f21{
+                height: 250px;
+                width:140px;
+                background-color: grey;
+                color:white;
+                margin-left: 20px;
+            }
+            .f3{
+                height: 300px;
+                width:180px;
+                background-color: grey;
+                float:left;
+                margin-left: 25px;
+                color:white;
+                border-radius: 10px;
+            }
+            .f31{
+                height: 250px;
+                width:140px;
+                background-color: grey;
+                color:white;
+                margin-left: 20px;
+            }
+            .f4{
+                height: 300px;
+                width:180px;
+                background-color: grey;
+                float:left;
+                margin-left: 25px;
+                color:white;
+                border-radius: 10px;
+            }
+            .f41{
+                height: 250px;
+                width:140px;
+                background-color: grey;
+                color:white;
+                margin-left: 20px;
+            }
+            .l{
+                height: 200px;
+                width:300px;
+                margin-left: 30px;
+            }
+            .w{
+                position: absolute;
+                top:40px;
+                left:600px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="back">
+            <div class="a">
+                <div class="w">
+                <center>
+                <h class="t1">Weather Dashboard</h>
+                </center>
+                </div>
+            </div>
+            <div class="b">
+                <label><b>Enter a City Name</b></label><br><br>
+                <input type="text" placeholder="E.g., New York, landon, Tokyo"><br><br>
+                <button class="bt1"><center>Search</center></button><br>
+                <div class="c"></div>
+                <p class="t2">or</p>
+                <div class="d"></div>
+                <button class="bt2"><center>Use current Location</center></button>
+             </div>
+             <div class="e">
+                <div class="e1">
+                    <div class="l">
+                    <h3>Landon (2023-06-19)</h3>
+                    <p class="p1">Temperature: 18.71<sup>0</sup>C</p>
+                    <p class="p1">Wind:4.31 M/S</p>
+                    <p class="p1">Humidity: 76%</p>
+                    </div>
+                </div>
+                <div class="ei">
+                    <center>
+                        <img class="i1" src="../images/rain.png">
+                    <!-- <img class="i1" src="../images/cloud2.png"> -->
+                    <p>Moderate rain</p>
+                    </center>
+                </div>
+                <h2>4-Day Forecast</h2>
+                <div class="f">
+                    <div class="f1">
+                        <div class="f11">
+                        <h3>(2023-06-20)</h3>
+                        <img src="../images/cloudwsun.png" style="height: 50px;width:50px;">
+                        <p>Temp:17.64<sup>0</sup>C</p>
+                        <p>wind: 0.73 M/S</p>
+                        <p>Humidity: 70%</p>
+                        </div>
+                    </div>
+                    <div class="f2">
+                        <div class="f21">
+                        <h3>(2023-06-20)</h3>
+                        <img src="../images/sun.png" style="height: 50px;width:50px;">
+                        <p>Temp:16.78<sup>0</sup>C</p>
+                        <p>wind: 2.72 M/S</p>
+                        <p>Humidity: 83%</p>
+                        </div>
+                    </div>
+                    <div class="f3">
+                        <div class="f31">
+                        <h3>(2023-06-20)</h3>
+                        <img src="../images/sunwstrome2.png" style="height: 50px;width:50px;">
+                        <p>Temp:18.20<sup>0</sup>C</p>
+                        <p>wind: 1.49 M/S</p>
+                        <p>Humidity: 72%</p>
+                        </div>
+                    </div>
+                    <div class="f4">
+                        <div class="f41">
+                        <h3>(2023-06-20)</h3>
+                        <img src="../images/sunwwind.png" style="height: 50px;width:50px;">
+                        <p>Temp:17.08<sup>0</sup>C</p>
+                        <p>wind: 0.9 M/S</p>
+                        <p>Humidity: 89%</p>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </body>
+</html>

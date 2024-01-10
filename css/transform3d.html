@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>transform 3d</title>
+        <style>
+            .o{
+                height: 200px;
+                width:200px;
+                border:2px solid black;
+                background-color: red;
+                margin-left: 20px;
+                float: left;
+            }
+            .o:hover{
+                transform: translate3d(20px,40px,60px);
+            }
+            .t{
+                height: 200px;
+                width:200px;
+                border:2px solid black;
+                background-color: yellow;
+                margin-left: 20px;
+                float: left;
+            }
+            .t:hover{
+                transform: scale3d(5,10,15);
+            }
+            .th{
+                height: 200px;
+                width:200px;
+                border:2px solid black;
+                background-color: blue;
+                margin-left: 20px;
+                float: left;
+            }
+            .th:hover{
+                transform: rotate3d(0,0,1,60deg);
+            }
+            .f{
+                height: 200px;
+                width:200px;
+                border:2px solid black;
+                background-color: aqua;
+                margin-left: 20px;
+                float: left;
+            }
+            .f:hover{
+                transform: skew(20deg,30deg,40deg);
+            }
+            .fi{
+                height: 200px;
+                width:200px;
+                border:2px solid black;
+                background-color: aqua;
+                margin-left: 20px;
+                float: left;
+            }
+            .fi:hover{
+                transform: matrix3d();
+            }
+        </style>
+    </head>
+    <body>
+        <center><h2>Transform 3d direction</h2></center><hr>
+        <div class="o">
+            <center><p>translate</p></center>
+        </div>
+        <div class="t">
+            <center><p>scale</p></center>
+        </div>
+        <div class="th">
+            <center><p>rotate</p></center>
+        </div>
+        <div class="f">
+            <center><p>skew</p></center>
+        </div>
+    </body>
+</html>

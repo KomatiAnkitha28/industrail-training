@@ -1,0 +1,169 @@
+<html>
+    <head>
+        <style>
+            .a{
+                height: 400px;
+                width:500px;
+                border: 2px solid black;
+            }
+            .one{
+                height: 200px;
+                width:200px;
+                border-radius: 100px;
+                background-color: pink;
+                border: 2px solid black;
+                animation-name: o;
+                animation-duration: 5s;
+                animation-delay: 5s;
+            }
+            @keyframes o{
+                0%{
+                    background-color: aqua;
+                }
+                20%{
+                    background-color: wheat;
+                }
+                40%{
+                    background-color: yellow;
+                }
+                60%{
+                    background-color: purple;
+                }
+                80%{
+                    background-color: powderblue;
+                }
+                100%{
+                    background-color: rgb(244, 38, 72);
+                }
+            }
+            .b{
+                height: 700px;
+                width:700px;
+                border: 2px solid black;
+            }
+            .second{
+                height: 200px;
+                width:200px;
+                background-color: black;
+                border-radius: 100px;
+                animation-name: s;
+                animation-duration: 2s;
+                position: relative;
+                animation-iteration-count: 4;
+            }
+            @keyframes s{
+                0%{
+                    background-color: aqua; top:0px; left:400px;
+                }
+                20%{
+                    background-color: wheat;top:400px;left:400px;
+                }
+                40%{
+                    background-color: yellow;top:400px;left0px;
+                }
+                60%{
+                    background-color: purple;top:300px; left:0px;
+                }
+                80%{
+                    background-color: powderblue;top:200px; left:0px;
+                }
+                100%{
+                    background-color: rgb(244, 38, 72);top:0px; left:0px;
+                }
+            }
+            .c{
+                height: 700px;
+                width:700px;
+                border: 2px solid black;
+            }
+            .third{
+                height: 200px;
+                width:200px;
+                background-color: black;
+                border-radius: 100px;
+                animation-name: t;
+                animation-duration: 2s;
+                position: relative;
+                animation-iteration-count: 4;
+                animation-direction: alternate-reverse;
+            }
+            @keyframes t{
+                0%{
+                    background-color: aqua; top:0px; left:400px;
+                }
+                20%{
+                    background-color: wheat;top:400px;left:400px;
+                }
+                40%{
+                    background-color: yellow;top:400px;left0px;
+                }
+                60%{
+                    background-color: purple;top:300px; left:0px;
+                }
+                80%{
+                    background-color: powderblue;top:200px; left:0px;
+                }
+                100%{
+                    background-color: rgb(244, 38, 72);top:0px; left:0px;
+                }
+            }
+            .d{
+                height: 700px;
+                width:700px;
+                border: 2px solid black;
+            }
+            .four{
+                height: 200px;
+                width:200px;
+                background-color: black;
+                border-radius: 100px;
+                animation-name: f;
+                animation-duration: 2s;
+                position: relative;
+                animation-iteration-count: 4;
+                animation-direction: reverse;
+                /* animation-fill-mode: backwards; */
+                animation-fill-mode: forwards;
+            }
+            @keyframes f{
+                0%{
+                    background-color: aqua; top:0px; left:400px;
+                }
+                20%{
+                    background-color: wheat;top:400px;left:400px;
+                }
+                40%{
+                    background-color: yellow;top:400px;left0px;
+                }
+                60%{
+                    background-color: purple;top:300px; left:0px;
+                }
+                80%{
+                    background-color: powderblue;top:200px; left:0px;
+                }
+                100%{
+                    background-color: rgb(244, 38, 72);top:0px; left:0px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <center><h1>Animtions testing</h1></center><hr>
+        <div class="a">
+            <center><h1>colors changing</h1></center>
+            <div class="one"></div>
+        </div>
+        <div class="b">
+            <center><h1>left and top directions</h1></center>
+            <div class="second"></div>
+        </div>
+        <div class="c">
+            <center><h1>reverse direcion</h1></center>
+            <div class="third"></div>
+        </div>
+        <div class="d">
+            <center><h1>backward</h1></center>
+            <div class="four"></div>
+        </div>
+    </body>
+</html>
